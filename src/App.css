@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content, .banList {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.apodData {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apodData button {
+  margin: 2px;
+  cursor: pointer;
+}
+
+.apodData img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.banList {
+  flex: 1;
+  background-color: #f2f2f2; /* Light grey background */
+  margin-left: 20px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.banList h2 {
+  color: #333; /* Darker text for the title */
+  margin-bottom: 15px;
+}
+
+.banList p {
+  color: #666; /* Lighter text for the items */
+  font-style: italic;
+  margin: 5px 0;
+}
