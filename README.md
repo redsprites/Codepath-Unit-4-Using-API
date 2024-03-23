@@ -28,4 +28,4 @@ npm run dev
 ## GIF Walkthrough
 Here's a walkthrough of implemented user stories:
 
-![Walkthrough GIF](https://imgur.com/9znstZW.gif)
+![Walkthrough GIF](https://imgur.com/W3XxAFq.gif)
