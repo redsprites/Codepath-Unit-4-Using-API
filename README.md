@@ -5,13 +5,13 @@
 Codepath Project Unit 4 Making API requests and using real data.
 
 ## Main Take aways
-  - To avoid `CORS` policy that comes because we are using a development server we need to add a `proxy` configuration inside the `vite.config.ts` file.
-  - Importing environment virables is different in `vite`. 
+  - To avoid `CORS` policy Error coming from using a development server we need to add a `proxy` configuration inside the `vite.config.ts` file.
+  - Importing environment virables is different in `vite` than create-react-app. 
 
 ## Installation 
 To run this project locally, follow these steps:
 ``` bash 
-git clonehttps://github.com/redsprites/Codepath-Unit-4-Using-API
+git clone https://github.com/redsprites/Codepath-Unit-4-Using-API
 cd Codepath-Unit-4-Using-API
 npm install
 npm run dev
@@ -27,5 +27,6 @@ npm run dev
 
 ## GIF Walkthrough
 Here's a walkthrough of implemented user stories:
+`https://imgur.com/W3XxAFq.gif`
 
 ![Walkthrough GIF](https://imgur.com/W3XxAFq.gif)
