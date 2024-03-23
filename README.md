@@ -1,11 +1,11 @@
-# Astronomy Picture of the Dat (APOD)
+# Astronomy Picture of the Day (APOD)
 
 ### React + TypeScript + Vite
 
 Codepath Project Unit 4 Making API requests and using real data.
 
 ## Main Take aways
-  - To avoid `CORS Policy Error` caused by using a local development server, a `proxy` configuration inside the `vite.config.ts` file needs to be added. More Info ![here](https://vitejs.dev/config/server-options#server-proxy)
+  - To avoid `CORS Policy Error` caused by using a local development server, a `proxy` configuration inside the `vite.config.ts` file needs to be added. More Info [here](https://vitejs.dev/config/server-options#server-proxy)
   - Importing environment virables is different in `vite` than create-react-app. 
 
 ## Installation 
