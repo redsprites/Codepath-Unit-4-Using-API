@@ -5,7 +5,7 @@
 Codepath Project Unit 4 Making API requests and using real data.
 
 ## Main Take aways
-  - To avoid `CORS` policy Error coming from using a development server we need to add a `proxy` configuration inside the `vite.config.ts` file.
+  - To avoid `CORS Policy Error` caused by using a local development server, a `proxy` configuration inside the `vite.config.ts` file needs to be added. More Info ![here](https://vitejs.dev/config/server-options#server-proxy)
   - Importing environment virables is different in `vite` than create-react-app. 
 
 ## Installation 
@@ -29,4 +29,4 @@ npm run dev
 Here's a walkthrough of implemented user stories:
 `https://imgur.com/W3XxAFq.gif`
 
-![Walkthrough GIF](https://imgur.com/W3XxAFq.gif)
+ ![Walkthrough GIF](https://imgur.com/W3XxAFq.gif)
